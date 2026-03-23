@@ -1,0 +1,30 @@
+input {
+    display: flex;
+    margin: auto;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5%;
+    border-color: blue;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+    border-radius: 6px;
+    border: 1px solid burlywood;
+    padding: 20px;
+    width: 300px;
+}
